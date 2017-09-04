@@ -19,7 +19,6 @@ project not be to your liking, feel free to fork and customize for your specific
   - [Usage](#usage)
     - [Customization](#customization)
   - [Additional Software](#additional-software)
-    - [Newsyslog](#newsyslog)
     - [Post Install](#post-install)
   - [Versioning](#versioning)
   - [Code of Conduct](#code-of-conduct)
@@ -88,6 +87,7 @@ project not be to your liking, feel free to fork and customize for your specific
     - Next meeting
     - [Medis](http://getmedis.com)
     - [Slack](https://slack.com)
+    - [Sublime Text 3](http://www.sublimetext.com)
     - Telegram
     - [Tweetbot](http://tapbots.com/tweetbot/mac)
     - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
@@ -142,58 +142,6 @@ applications/extensions within the `settings.sh` file will cause the installer t
 applications/extensions.
 
 ## Additional Software
-
-### Newsyslog
-
-Native to macOS, [newsyslog](https://www.freebsd.org/cgi/man.cgi?newsyslog.conf(5)) can be used to
-configure system-wide log rotation across multiple projects. It's a good recommendation to set this
-up so that disk space is carefully maintained. Here's how to configure it for your system, start by
-creating a configuration for your projects in the `/etc/newsyslog.d` directory. In my case, I use
-the following configurations:
-
-- `/etc/newsyslog.d/alchemists.conf`
-
-        # logfilename                                            [owner:group]    mode   count   size  when  flags
-        /Users/bkuhlmann/Dropbox/Development/Work/**/log/*.log                    644    2       5120  *     GJN
-- `/etc/newsyslog.d/homebrew.conf`
-
-        # logfilename                   [owner:group]    mode   count   size    when  flags
-        /usr/local/var/log/**/*.log                      644    2       5120    *     GJN
-
-These configurations ensure that logs are rotated every 5MB (5120KB). In order to test that these
-configurations are valid, run:
-
-    sudo newsyslog -nvv
-
-If you don't see any errors in the output, then your configuration settings are correct.
-
-The last thing to do is to add a launch configuration to ensure the log rotations happen at
-regularly scheduled intervals. To do this create the following file:
-`$HOME/Library/LaunchAgents/com.apple.newsyslog.plist`. It should have the following content:
-
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-    <dict>
-      <key>Label</key>
-      <string>com.apple.newsyslog</string>
-      <key>ProgramArguments</key>
-      <array>
-        <string>/usr/sbin/newsyslog</string>
-      </array>
-      <key>LowPriorityIO</key>
-      <true/>
-      <key>Nice</key>
-      <integer>1</integer>
-      <key>StartCalendarInterval</key>
-      <dict>
-        <key>Minute</key>
-        <integer>30</integer>
-      </dict>
-    </dict>
-    </plist>
-
-That's it. System-wide log rotation is setup for your projects.
 
 ### Post Install
 
