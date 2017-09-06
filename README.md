@@ -143,6 +143,7 @@ The following are additional steps, not easily automated, that are worth complet
 install scripts have been executed:
 
 - Lauch App Store and install all purchased software and other things.
+  - Airmail 
 	- Alfred
 	- Spectacle
   - Contexts
