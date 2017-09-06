@@ -12,10 +12,7 @@ if ! command -v mas > /dev/null; then
 fi
 
 # CCMenu
-mas install 603117688
-
-# Cocoa JSON Editor
-mas install 442160773
+mas install 603117688 
 
 # Day One
 mas install 1055511498

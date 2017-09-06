@@ -36,7 +36,6 @@ project not be to your liking, feel free to fork and customize for your specific
     - [OpenSSL](https://openssl.org)
     - [Bash](https://www.gnu.org/software/bash)
     - [Bash Completion](http://bash-completion.alioth.debian.org)
-    - [cloc](http://cloc.sourceforge.net)
     - [Colorized Cat](https://github.com/jingweno/ccat)
     - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
     - [Git](http://git-scm.com)
@@ -75,7 +74,6 @@ project not be to your liking, feel free to fork and customize for your specific
     - Sourcetree
     - [Sublime Text 3](http://www.sublimetext.com)
     - [Trailer](http://ptsochantaris.github.io/trailer)
-    - [Transmit](https://panic.com/transmit)
     - [Visual Studio Code](https://code.visualstudio.com)
     - VirtualBox
     - [VLC](http://www.videolan.org/vlc)

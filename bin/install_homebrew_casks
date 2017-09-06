@@ -17,11 +17,9 @@ brew cask install karabiner-elements
 brew cask install muzzle
 brew cask install qlstephen
 brew cask install rescuetime
-brew cask install sonos
 brew cask install sourcetree
 brew cask install sublime-text
 brew cask install trailer
-brew cask install transmit
 brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install vlc

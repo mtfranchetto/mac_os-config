@@ -23,12 +23,6 @@ brew install bash
 # Bash Completion
 brew install bash-completion
 
-# chruby
-brew install chruby
-
-# cloc
-brew install cloc
-
 # Colorized Cat
 brew install ccat
 
@@ -56,9 +50,6 @@ brew install mas
 # Node
 brew install node
 
-# Parallel
-brew install parallel
-
 # Peco
 brew install peco
 
@@ -78,6 +69,5 @@ brew install tree
 brew install z
 
 # zsh
-
 brew install zsh
 brew install zsh-completions
