@@ -15,6 +15,9 @@ chsh -s /usr/local/bin/bash
   git config --local core.hooksPath /dev/null
 )
 
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Dotfiles
 rm -f $HOME/.bash_profile
 install_git_project "https://github.com/mtfranchetto/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"

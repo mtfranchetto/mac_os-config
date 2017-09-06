@@ -49,16 +49,17 @@ project not be to your liking, feel free to fork and customize for your specific
     - [Peco](https://github.com/peco/peco)
     - [Redis](http://redis.io)
     - thefuck
+    - Terraform
     - [Tree](http://mama.indstate.edu/users/ice/tree)
     - [Yarn](https://yarnpkg.com)
     - [Z](https://github.com/rupa/z)
     - zsh
     - zsh-completions
+    - Oh my zsh
 - Downloads, installs, and configures [Homebrew Cask](https://caskroom.github.io) command line
   software:
-    - [Alfred](http://www.alfredapp.com)
     - [App Cleaner](http://www.freemacsoft.net/appcleaner)
-    - [Bartender](http://www.macbartender.com)
+    - Bartender
     - [Dash](http://kapeli.com/dash)
     - [Dropbox](https://www.dropbox.com)
     - [Firefox](http://www.mozilla.com/en-US/firefox)
@@ -67,11 +68,12 @@ project not be to your liking, feel free to fork and customize for your specific
     - [iStat Menus](https://bjango.com/mac/istatmenus)
     - [iTerm2](http://www.iterm2.com)
     - [Marp](https://yhatt.github.io/marp)
-    - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html)
+    - Karabiner elements
     - [Muzzle](https://muzzleapp.com)
     - [QLStephen](https://whomwah.github.io/qlstephen)
     - [RescueTime](https://www.rescuetime.com)
     - Sourcetree
+    - [Sublime Text 3](http://www.sublimetext.com)
     - [Trailer](http://ptsochantaris.github.io/trailer)
     - [Transmit](https://panic.com/transmit)
     - [Visual Studio Code](https://code.visualstudio.com)
@@ -81,17 +83,11 @@ project not be to your liking, feel free to fork and customize for your specific
     [App Store](http://www.apple.com/macosx/whats-new/app-store.html) applications.
     - [CCMenu](http://ccmenu.org)
     - [Day One](http://dayoneapp.com)
-    - [Kaleidoscope](http://www.kaleidoscopeapp.com)
+    - Enpass
     - [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
-    - LastPass
     - Next meeting
-    - [Medis](http://getmedis.com)
     - [Slack](https://slack.com)
-    - [Sublime Text 3](http://www.sublimetext.com)
     - Telegram
-    - [Tweetbot](http://tapbots.com/tweetbot/mac)
-    - [WiFi Explorer](http://www.adriangranados.com/apps/wifi-explorer)
-    - [Witch](https://manytricks.com/witch)
     
 ## Requirements
 
@@ -151,14 +147,12 @@ install scripts have been executed:
 - Lauch App Store and install all purchased software and other things.
 	- Alfred
 	- Spectacle
+  - Contexts
 	- Oh my zsh
 	- Macdown
-	- Contexts
 	- Focus
 	- uTorrent
 	- Charles
-	- Sip
-	- Remote for Mac
 	- Skype
 - Configure System Preferences:
   - Security & Privacy:

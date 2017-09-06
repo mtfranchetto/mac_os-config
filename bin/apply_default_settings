@@ -98,6 +98,9 @@ defaults write com.apple.dock persistent-apps -array
 printf "Dock - Automatically hide and show\n"
 defaults write com.apple.dock autohide -bool true
 
+printf "Dashboard - Disable"
+defaults write com.apple.dashboard mcx-disabled -bool true
+
 printf "Dock - Remove the auto-hiding delay\n"
 defaults write com.apple.Dock autohide-delay -float 0
 
