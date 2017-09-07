@@ -34,8 +34,6 @@ project not be to your liking, feel free to fork and customize for your specific
 - Downloads, installs, and configures [Homebrew Formula](http://brew.sh) command line software:
     - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
     - [OpenSSL](https://openssl.org)
-    - [Bash](https://www.gnu.org/software/bash)
-    - [Bash Completion](http://bash-completion.alioth.debian.org)
     - [Colorized Cat](https://github.com/jingweno/ccat)
     - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
     - [Git](http://git-scm.com)

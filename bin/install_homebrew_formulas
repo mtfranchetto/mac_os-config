@@ -17,12 +17,6 @@ brew install readline
 # OpenSSL
 brew install openssl
 
-# Bash
-brew install bash
-
-# Bash Completion
-brew install bash-completion
-
 # Colorized Cat
 brew install ccat
 
