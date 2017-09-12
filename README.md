@@ -66,7 +66,6 @@ project not be to your liking, feel free to fork and customize for your specific
     - [iTerm2](http://www.iterm2.com)
     - [Marp](https://yhatt.github.io/marp)
     - Karabiner elements
-    - [Muzzle](https://muzzleapp.com)
     - [QLStephen](https://whomwah.github.io/qlstephen)
     - [RescueTime](https://www.rescuetime.com)
     - Sourcetree
