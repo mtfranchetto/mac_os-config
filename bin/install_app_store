@@ -11,9 +11,6 @@ if ! command -v mas > /dev/null; then
   exit 1
 fi
 
-# CCMenu
-mas install 603117688 
-
 # Day One
 mas install 1055511498
 
