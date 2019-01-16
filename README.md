@@ -55,8 +55,10 @@ project not be to your liking, feel free to fork and customize for your specific
     - Oh my zsh
 - Downloads, installs, and configures [Homebrew Cask](https://caskroom.github.io) command line
   software:
+    - Alfred
     - [App Cleaner](http://www.freemacsoft.net/appcleaner)
     - Bartender
+    - Charles
     - [Dash](http://kapeli.com/dash)
     - [Dropbox](https://www.dropbox.com)
     - [Firefox](http://www.mozilla.com/en-US/firefox)
@@ -64,24 +66,24 @@ project not be to your liking, feel free to fork and customize for your specific
     - [ImageOptim](http://imageoptim.pornel.net)
     - [iStat Menus](https://bjango.com/mac/istatmenus)
     - [iTerm2](http://www.iterm2.com)
-    - [Marp](https://yhatt.github.io/marp)
     - Karabiner elements
+    - Keeping you awake
+    - Macdown
+    - Polymail
+    - Postman
     - [QLStephen](https://whomwah.github.io/qlstephen)
     - [RescueTime](https://www.rescuetime.com)
+    - Skype
     - Sourcetree
     - [Sublime Text 3](http://www.sublimetext.com)
-    - [Trailer](http://ptsochantaris.github.io/trailer)
     - [Visual Studio Code](https://code.visualstudio.com)
     - VirtualBox
     - [VLC](http://www.videolan.org/vlc)
 - Downloads, installs, and configures
     [App Store](http://www.apple.com/macosx/whats-new/app-store.html) applications.
-    - [CCMenu](http://ccmenu.org)
-    - [Day One](http://dayoneapp.com)
     - Enpass
     - [Kindle](http://www.amazon.com/gp/feature.html?docId=1000464931)
     - Next meeting
-    - [Slack](https://slack.com)
     - Telegram
     
 ## Requirements
@@ -139,15 +141,6 @@ applications/extensions.
 The following are additional steps, not easily automated, that are worth completing after the
 install scripts have been executed:
 
-- Install all purchased software and other things.
-  - Alfred
-  - Spectacle
-  - Macdown
-  - uTorrent
-  - Charles
-  - Skype
-  - Spotify
-  - Popclip
 - Configure System Preferences:
   - Security & Privacy:
     - General:
@@ -161,7 +154,7 @@ install scripts have been executed:
       - Automatically allow signed software.
       - Enable stealth mode.
     - Privacy:
-      - Apps like Cheat Sheet, Dash, Dropbox, Trailer, etc. will need to be enabled for
+      - Apps like Cheat Sheet, Dash, Dropbox, etc. will need to be enabled for
         accessibility.
   - Printers & Scanners:
     - Add printer/scanner.

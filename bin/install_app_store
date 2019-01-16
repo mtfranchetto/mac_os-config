@@ -11,9 +11,6 @@ if ! command -v mas > /dev/null; then
   exit 1
 fi
 
-# Day One
-mas install 1055511498
-
 # Enpass
 mas install 732710998
 
@@ -23,11 +20,5 @@ mas install 405399194
 # Next meeting
 mas install 1017470484
 
-# Slack
-mas install 803453959
-
 # Telegram
 mas install 747648890
-
-# Spark
-mas install 1176895641
